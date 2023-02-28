@@ -1,0 +1,97 @@
+
+> fault-front@0.0.0 dev
+> vite --host 0.0.0.0
+
+
+  VITE v4.1.3  ready in 993 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://222.175.110.137:5173/
+  ➜  Network: http://172.20.95.120:5173/
+12:39:58 PM [vite] hmr update /src/views/MapView.vue
+12:39:59 PM [vite] ✨ new dependencies optimized: @amap/amap-jsapi-types
+12:43:42 PM [vite] hmr update /src/views/MapView.vue
+12:45:55 PM [vite] hmr update /src/views/MapView.vue
+12:53:04 PM [vite] hmr update /src/views/MapView.vue
+12:54:06 PM [vite] hmr update /src/views/MapView.vue
+12:54:11 PM [vite] hmr update /src/views/MapView.vue
+12:54:30 PM [vite] hmr update /src/views/MapView.vue
+12:55:48 PM [vite] hmr update /src/views/MapView.vue
+12:57:58 PM [vite] hmr update /src/views/MapView.vue
+12:58:25 PM [vite] hmr update /src/views/MapView.vue
+12:58:31 PM [vite] hmr update /src/views/MapView.vue
+1:18:12 PM [vite] hmr update /src/views/MapView.vue
+1:18:20 PM [vite] hmr update /src/views/MapView.vue
+1:22:26 PM [vite] hmr update /src/views/MapView.vue
+1:22:59 PM [vite] hmr update /src/views/MapView.vue
+1:29:05 PM [vite] hmr update /src/views/MapView.vue
+1:29:43 PM [vite] hmr update /src/views/MapView.vue
+1:29:43 PM [vite] Internal server error: [@vue/compiler-sfc] Unexpected token, expected "," (77:12)
+
+/home/signx/dev/repos/fault-front/src/views/MapView.vue
+75 |              })
+76 |          }
+77 |              });
+   |              ^
+78 |  })
+79 |                  }
+  Plugin: vite:vue
+  File: /home/signx/dev/repos/fault-front/src/views/MapView.vue:77:12
+  73 |                      map.value.add(obdline);
+  74 |                  }
+  75 |              })
+     |               ^
+  76 |          }
+  77 |              });
+      at instantiate (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:64:32)
+      at constructor (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:364:12)
+      at TypeScriptParserMixin.raise (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:3256:19)
+      at TypeScriptParserMixin.unexpected (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:3286:16)
+      at TypeScriptParserMixin.expect (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:3632:28)
+      at TypeScriptParserMixin.parseCallExpressionArguments (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:11038:14)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:10967:29)
+      at TypeScriptParserMixin.parseSubscript (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:10902:19)
+      at TypeScriptParserMixin.parseSubscript (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:9193:18)
+      at TypeScriptParserMixin.parseSubscripts (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:10878:19)
+1:30:29 PM [vite] hmr update /src/views/MapView.vue
+1:30:29 PM [vite] Internal server error: [@vue/compiler-sfc] Unexpected token, expected "," (77:12)
+
+/home/signx/dev/repos/fault-front/src/views/MapView.vue
+75 |              })
+76 |          }
+77 |              });
+   |              ^
+78 |  })
+79 |                  }
+  Plugin: vite:vue
+  File: /home/signx/dev/repos/fault-front/src/views/MapView.vue:77:12
+  73 |                      map.value.add(obdline);
+  74 |                  }
+  75 |              })
+     |               ^
+  76 |          }
+  77 |              });
+      at instantiate (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:64:32)
+      at constructor (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:364:12)
+      at TypeScriptParserMixin.raise (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:3256:19)
+      at TypeScriptParserMixin.unexpected (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:3286:16)
+      at TypeScriptParserMixin.expect (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:3632:28)
+      at TypeScriptParserMixin.parseCallExpressionArguments (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:11038:14)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:10967:29)
+      at TypeScriptParserMixin.parseSubscript (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:10902:19)
+      at TypeScriptParserMixin.parseSubscript (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:9193:18)
+      at TypeScriptParserMixin.parseSubscripts (/home/signx/dev/repos/fault-front/node_modules/.store/@babel+parser@7.21.1/node_modules/@babel/parser/lib/index.js:10878:19)
+1:32:10 PM [vite] hmr update /src/views/MapView.vue
+1:35:06 PM [vite] hmr update /src/views/MapView.vue
+1:35:14 PM [vite] hmr update /src/views/MapView.vue
+1:38:46 PM [vite] hmr update /src/views/MapView.vue
+1:44:43 PM [vite] hmr update /src/views/MapView.vue
+2:01:42 PM [vite] hmr update /src/views/MapView.vue
+2:58:06 PM [vite] hmr update /src/views/MapView.vue
+3:00:56 PM [vite] hmr update /src/views/MapView.vue
+3:16:45 PM [vite] hmr update /src/views/MapView.vue
+3:31:47 PM [vite] hmr update /src/views/MapView.vue
+4:12:25 PM [vite] hmr update /src/views/MapView.vue
+4:13:25 PM [vite] hmr update /src/views/MapView.vue
+4:17:26 PM [vite] hmr update /src/views/MapView.vue
+4:18:47 PM [vite] hmr update /src/views/MapView.vue
